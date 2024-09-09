@@ -1,3 +1,5 @@
+# Is Unique: Implement an algorithm to determine if a string has all unique characters. 
+# What if you cannot use additional data structures?
 class Solution():
     def hasUniqueChar(self, s: str) -> bool:
         if len(s) > 128:

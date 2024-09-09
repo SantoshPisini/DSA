@@ -1,3 +1,7 @@
+'''
+Check Permutation: Given two strings,write a method to decide if one is a permutation of the
+other.
+'''
 class Solution():
     def isPermutation(self, x: str, y: str) -> bool:
         if len(x) != len(y):
